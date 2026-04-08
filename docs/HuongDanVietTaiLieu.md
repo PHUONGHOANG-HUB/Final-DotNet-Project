@@ -104,7 +104,7 @@ Tài liệu này cung cấp hướng dẫn và bộ khung chuẩn (template) cho
       { "id": 1, "name": "Sản phẩm A", "price": 100000 }
     ]
   }
-  
+  ```
 
 ### 2.2 Thêm sản phẩm mới
 - **Endpoint:** `/products`
