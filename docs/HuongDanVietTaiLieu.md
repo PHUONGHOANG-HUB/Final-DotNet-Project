@@ -97,26 +97,24 @@ Tài liệu này cung cấp hướng dẫn và bộ khung chuẩn (template) cho
   - `limit` (int, optional): Số lượng item trên 1 trang.
   - `page` (int, optional): Số trang.
 - **Response (200 OK):**
-  ```json
   {
     "status": "success",
     "data": [
       { "id": 1, "name": "Sản phẩm A", "price": 100000 }
     ]
   }
-  ```
+  
 
 ### 2.2 Thêm sản phẩm mới
 - **Endpoint:** `/products`
 - **Method:** `POST`
 - **Body:**
-  ```json
   {
     "name": "Sản phẩm mới",
     "price": 250000,
     "category_id": 5
   }
-  ```
+  
 - **Responses:**
     - `201 Created`: Thêm mới thành công.
     - `400 Bad Request`: Dữ liệu đầu vào không hợp lệ.
